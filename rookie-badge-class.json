@@ -1,0 +1,7 @@
+{
+	"name": "Rookie Badge Issuer",
+	"description": "Issues great new Open Badges to self.",
+	"image": "https://chinmayrai.github.io/rookie-badge-issuer.png",
+	"criteria": "https://chinmayrai.github.io/rookie-badge-criteria.html",
+	"issuer": "https://chinmayrai.github.io/badge-issuer.json"
+}
