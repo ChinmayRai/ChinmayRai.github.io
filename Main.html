@@ -33,18 +33,20 @@
     
         <div id="map"></div>        
         
+        <script type="text/javascript" src="./geojson.json"></script>
         <script src="./key.txt"></script>
         <script type="text/javascript">
 
-        var geojson;
-        var requestURL = './geojson.json'
+        var geojson= JSON.parse(data);
+        geojson=geojson[0];
+        /*var requestURL = './geojson.json'
         var request = new XMLHttpRequest();
         request.open('GET', requestURL);
         request.responseType = 'json';
         request.send();
         request.onload = function() {
           geojson = request.response;
-        }
+        }*/
         
 
         function initMap() {
